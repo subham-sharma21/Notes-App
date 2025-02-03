@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Note App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="app-container">
+        <nav class="top-bar">
+            <div class="logo">
+                <i class="fas fa-notebook"></i>
+                <h1>Notes App</h1>
+            </div>
+            <div class="nav-controls">
+                <button id="theme-toggle" class="theme-toggle" title="Toggle Theme">
+                    <i class="fas fa-moon toggle-icon"></i>
+                </button>
+                <button id="add-note" class="add-note-btn" title="Add New Note">
+                    <i class="fas fa-plus"></i>
+                </button>
+            </div>
+        </nav>
+
+        <main class="notes-wrapper">
+            <div class="search-bar">
+                <div class="search-input-wrapper">
+                    <i class="fas fa-search search-icon"></i>
+                    <input type="text" id="search-notes" placeholder="Search notes...">
+                </div>
+            </div>
+
+            <div class="notes-container" id="notes-container">
+                <!-- Notes will be added here dynamically -->
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
