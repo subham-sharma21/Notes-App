@@ -1,4 +1,4 @@
-# 📓 Simple Note App
+# 📓 Note App
 
 This Note App is designed to help users efficiently manage their notes in a simple and user-friendly interface. With features like note creation, editing, and local storage, it provides a seamless experience for organizing thoughts and ideas.
 
